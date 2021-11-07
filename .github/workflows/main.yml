@@ -2,7 +2,7 @@ name: "Daily Fudan"
 
 on:
   schedule:
-    - cron: "0 0 */8 * *"  # scheduled at 06:00 (UTC+8) everyday
+    - cron: "0 10,12 * * *"
   workflow_dispatch:
 
 env:
